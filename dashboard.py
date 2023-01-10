@@ -25,7 +25,8 @@ import json
 
 #---------------------------------------------------------------------------------------------------
 #Estudo e Manipulação de dados, filtros, extrações do arquivo csv, tipos de dados, 
-#conhecimento das informações que serão usadas para os gráficos no dashboard
+#conhecimento das informações que serão usadas para os gráficos no dashboard 
+# (manipula_dados.py)
 
 #import manipula_dados
 
@@ -34,9 +35,6 @@ df_states = pd.read_csv("df_states.csv")
 #importo dados especificos dos Brasil
 df_brasil = pd.read_csv("df_brasil.csv")
 
-
-
-
-
-
-
+#importando arquivo json da localização dos estados do brasil utilizando somente o método de leitura opcao 'r' 
+#(importa_json.py)
+import importa_json
